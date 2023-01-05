@@ -1,0 +1,152 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+\title{Rapport de réunion de lancement}
+\author{
+    Théo Delmas\\
+    Lauric Teysseyre\\
+    Pierre-Louis Renon\\
+    Julien Wattier\\
+    \\
+    Université Paul Sabatier\\
+    Master Informatique 1\\
+   } 
+\date{21/12/2022}
+
+
+\begin{document}
+    \maketitle
+    \newpage
+    \tableofcontents
+    \newpage
+
+    \begin{section}{Participants}
+        Les participants de cette réunion étaient les suivants : 
+        \begin{itemize}
+            \item Pablo \textsc{Seban}, maître d'ouvrage.
+            \item Léo \textsc{Cusseau}, assistant à la maîtrise d'ouvrage.
+            \item Florian \textsc{Azizen}, assistant à la maîtrise d'ouvrage.
+            \item Théo \textsc{Delmas}, fournisseur.
+            \item Lauric \textsc{Teysseyre}, fournisseur.
+            \item Pierre-Louis \textsc{Renon}, fournisseur.
+            \item Julien \textsc{Wattier}, fournisseur.
+        \end{itemize}
+    \end{section}
+
+    \begin{section}{Objectif de la réunion}
+        L'objectif de cette réunion était de confirmer la note de cadrage du projet produite en amont par l'équipe des 
+        fournisseurs.\\
+        Pour rappel la note de cadrage clarifie le projet, son contexte et son besoin. Elle explicite également le cadre du 
+        projet, précise la gestion du projet et propose une analyse préliminaire de risques.
+    \end{section}
+
+    \begin{section}{Observations du client et ses assistants}
+        \begin{subsection}{Connaissance de l'agilité}
+            Florian Azizen nous a demandé si nous n'étions pas formés aux méthodes agiles avec le master, notamment parce que 
+            durant la présentation nous disons qu'il y a de bonnes chances d'avoir des retards sur jalon faute d'expérience et 
+            qu'en cas d'absence temporaire du client nous reportons les validations.
+
+            Nous lui avons répondu que la formation se fait en même temps que la tenue du projet. D'autre part il nous a précisé 
+            qu'en méthode agile, certains rôles permettent de simuler le client lors des backlogs produit si ce dernier n'est pas 
+            présent. Finalement il nous a proposé de nous envoyer un document clarifiant tous ces rôles.
+        \end{subsection}
+        
+        \begin{subsection}{Expérience avec VueJS}
+            Pablon Seban était étonné que nous évaluions peu probable le risque de manque de maîtrise sur VueJs.
+
+            Nous avons clarifié le fait que Pierre-Louis Renon et Julien Wattier dispose d'une expérience avec VueJs, ce qui 
+            réduit ce risque d'occurrence.
+        \end{subsection}
+
+        \begin{subsection}{Clarification de besoin}
+            Pablo Seban a clarifié le besoin de documenter les contraintes en précisant qu'en fait, il valait mieux que nous 
+            nous concentrions sur les autres tâches et qu'il produirait quelques contraintes documentées selon le template afin 
+            que nous puissions confortablement tester les interfaces.
+
+            Ce problème venait d'un quiproquo de notre part car nous avions bien compris que nous ne documenterions pas 
+            totalement les contraintes, mais qu'il faudrait au moins toutes les conformer au template qui serait produit.\\
+            De fait ce besoin est supprimé et sera éventuellement rajouté vers la fin du projet selon l'avancement.
+        \end{subsection}
+
+        \begin{subsection}{Abus de langage sur la gestion de version}
+            Lors de la présentation, pour parler de l'outil de gestion de version nous parlions de github. Or le projet est 
+            gérer via framagit, ce qui a interpeler Pablo Seban qui ne comprenait pas bien.
+
+            Nous avons clarifié nos propos en précisant que c'était un abus de langage et qu'en fait nous parlions de git, et 
+            que l'hébergeur de version serait bel et bien framagit.
+        \end{subsection}
+
+        \begin{subsection}{Gestion de version}
+            Pablo Seban nous a demandé si nous allions travailler depuis des branches du dépôt du projet, ou si nous allions
+            forker le projet, et de manière générale de préciser le workflow.
+
+            Après discussion avec tous les participants, il a été décidé d'appliquer le workflow github comme c'était prévu, 
+            mais en considérant la branche \emph{Catalogue} comme master, permettant à tous les contributeurs du projet de 
+            pouvoir suivre simplement le projet. Nous avons également présenté le workflow github.
+        \end{subsection}
+
+        \begin{subsection}{Durée des sprints absente}
+            Léo Cusseau nous a demandés pourquoi la durée des sprints n'était évoquée nulle part.
+
+            Nous lui avons dit que dans la phase d'initialisation du projet, il était compliqué de se prononcer sur cette durée 
+            puisque à ce stade, nous avons une vision trop macrocroscopique du projet. Dans la phase suivante qu'est la planification, 
+            l'étude détaillée du besoin nous permettra d'affiner suffisamment les tâches à réaliser et donc le planning pour 
+            décider d'une durée de sprint pertinente.
+        \end{subsection}
+
+        \begin{subsection}{Utilisation d'un kanban}
+            Pablo Seban nous a demandé si c'était la peine d'utiliser un kanban.
+
+            Nous lui avons répondu que oui puisque cela fait partie intégrante de la gestion agile qui nous est demandée.\\
+            Il nous a par la suite présenté comment les membres du projet utilisent leur kanban.
+        \end{subsection}
+
+        \begin{subsection}{Connaisances des besoins techniques des AMO}
+            Pablo Seban a demandé si les AMO étaient au courant des fonctionnalités à implémenter et où les implémenter.
+
+            Ces derniers ont rappelé qu'en soit, le rôle des AMO n'est pas technique et que cette connaissance n'était pas 
+            utile.
+        \end{subsection}
+
+        \begin{subsection}{Quiproquo sur un besoin}
+            Pablo Seban nous a demandé de reclarifier le troisième besoin cité dans la présentation car ce sont les 
+            documentations que l'on souhaite visualiser et pas les contraintes en soi.
+
+            Nous lui avons répondu que ce besoin avait bien été capturé mais que c'était une erreur de la présentation.
+        \end{subsection}
+
+        \begin{subsection}{Précision de la version de VueJS}
+            Florian Azizen nous a demandé si nous connaissions la version de VueJS a utiliser, et plus tard cela nous a amené à
+            demander quelle était la syntaxe à utiliser, VueJs permettant deux syntaxes.
+
+            Nous lui avons répondu que pour nous c'était la version 3, ce qui était bien le cas. La discussion qui a suivi a 
+            précisé qu'il fallait utiliser la \emph{Composition API}.
+        \end{subsection}
+
+    \end{section}
+
+    \begin{section}{Actions issues de la réunion}
+        \begin{itemize}
+            \item Révision de la note de cadrage
+            \begin{itemize}
+                \item Suppression du besoin de documentation et ce qui en découle (livrable, planning)
+                \item Précision de l'API à utiliser dans les contraintes
+            \end{itemize}
+
+            \item Prévision de réunion début janvier pour clarifier le besoin du template
+        \end{itemize}
+        
+    \end{section}
+
+    \begin{section}{Décisions issues de la réunion}
+        \begin{itemize}
+            \item Suppression du besoin de documenter les contraintes
+            \item Choix de l'hébergeur de version et du workflow associé
+            \item Choix du kanban
+        \end{itemize}
+        
+    \end{section}
+
+\end{document}
