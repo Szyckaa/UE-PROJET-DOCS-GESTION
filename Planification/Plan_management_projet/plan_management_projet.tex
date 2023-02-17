@@ -1,0 +1,60 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[]{graphicx}
+\usepackage[]{hyperref}
+
+\title{Plan de management projet}
+\author{
+    Théo Delmas\\
+    Lauric Teysseyre\\
+    Pierre-Louis Renon\\
+    Julien Wattier\\
+    \\
+    Université Paul Sabatier\\
+    Master Informatique 1\\
+   } 
+\date{}
+
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\begin{section}{Présentation du projet}
+    \begin{subsection}{Contexte}
+        FlopEDT! est une application permettant de créer un emploi du temps satisfaisant une série de contraintes basées sur 
+        la programmation linéaire. Cependant la gestion actuelle de ces contraintes est relativement technique et peu documentée.
+
+        De plus les principaux collaborateurs du projet ont initié un découplage entre le back-end et le front-end, les deux parties étant actuellement gérées par un unique serveur.
+    \end{subsection}
+
+    \begin{subsection}{Objectifs}
+        L’objectif est de créer une interface intuitive permettant de rechercher des contraintes à ajouter à la génération 
+        d’un emploi du temps, tout en y intégrant la documentation des contraintes, le tout en respectant le contexte de découplage front/back de l'application.
+    \end{subsection}
+\end{section}
+
+\begin{section}{Gestion des parties prenantes}
+ L'ensemble des parties prenantes est listée dans le \href{../Parties_prenantes/Parties_prenantes.pdf}{fichier des parties prenantes}.
+
+\end{section}
+
+\begin{section}{Gestion des besoins}
+ L'ensemble des besoins sont listés sous forme d'user story dans le \href{https://wekan.flopedt.org/b/HsRkBw5rbmQt5PQet/catalogue}{kanban dédié }.
+
+ \begin{subsection}{Capture des besoins}
+     Les besoins sont capturé au travers de réunions dédiées tenues avant de commencer un jalon.
+     Par la suite elle sont étoffées grâce à des user story qui sont pas la suite insérées dans le kanban.
+ \end{subsection}
+
+ \begin{subsection}{évolution des besoins}
+    Lors des revue de sprint, les parties prenantes présentes peuvent soumettre des demandes d'évolution.
+
+ \end{subsection}
+
+\end{section}
+\end{document}
