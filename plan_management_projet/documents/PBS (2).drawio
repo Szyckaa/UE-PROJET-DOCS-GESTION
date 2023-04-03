@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T18:45:31.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uKDHKP1naoZl0ohOLr3p" version="21.0.6" type="device"><diagram name="Page-1" id="8TQmJl976amvUQOl-_4e">3ZhRb9sgEMc/jR8n2cZOk8c27bJuqrYp0rZXZl9iJgwewYnTTz8wEMehnbKHxHMfosCfA8Pv4Dg7QPOyWQhcFU88BxrEYd4E6D6I4yhMQ/Wnlb1RkllkhLUguTXqhCV5BtfTqjXJYdMzlJxTSaq+mHHGIJM9DQvBd32zFaf9p1Z4DZ6wzDD11e8kl4VRp/FNp38Asi7ck6PJzLSU2BnblWwKnPPdkYQeAjQXnEtTKps5UA3PcTH93r/SepiYACbP6fCp+bElT438+Lz4HS2+Lm4xr97FZpQtprVdsJ2s3DsCgtcsBz1IFKC7XUEkLCuc6dad8rnSCllS22yHAyGheXWe0WH1atsAL0GKvTKxHZLEArM7JprY+q7jj6ZWK47YJ84QW5+vD2N3WFTBkvkHSuj/oxTFZ1AKX6CUppeilHiUFrCRhLPxwppeilXqsZrzspKgNLWovNYRs60EcxTczmrWYjQaxSyDUi89nlA10bufQpXWuvSZQRtpVEwZnPm0z1xFfo/5ITZehfnEY/5FoXRUK8F/gcIWfotGxRWhobnenMk1HhXXJB6a6/Q8rivCMB0V2tQNMRjamYf23gTaLVBeVTa6jjURuhg2l5QfcXtkEsRKU1A5OCVqaeB26JZsakzJBsujy0vl6VJg0pqdbtlHaZwgVI+VngvL7P2n/aE3+cAeScOTOy31N/J184go8jyyBLEl2cELOc/qFp/xwuiZo2Rw5v5L019OgYCsAKF+b/IEJGhwb/gvZycn4G174KXL9Moe8BOVJa8lMP2eMqrEZOKO9gUSE1XtvvW0bUdfzNDDHw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-03T10:17:05.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y9ifXnj_mJPXmQAOVi05" version="21.1.2" type="device">
+  <diagram name="Page-1" id="8TQmJl976amvUQOl-_4e">
+    <mxGraphModel dx="1615" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KxXviMxtJzGq1GQGAaop-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="300" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-4" value="Gestion" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-5" value="Compte rendu de réunion de lancement&lt;br&gt;One shot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="249" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-6" value="Plan de projet V1&lt;br&gt;One shot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="339" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-7" value="Plan de projet V2&lt;br&gt;One shot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="429" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-8" value="Plan de projet final&lt;br&gt;One shot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="521" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-9" value="Développement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-10" value="Interface cliente de visualisation de contrainte&lt;br&gt;Itératif incrémental" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="251" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-11" value="Service de documentation&lt;br&gt;Itératif incrémental" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="341" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KxXviMxtJzGq1GQGAaop-18" value="Soutenance&lt;br&gt;One shot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="612" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
