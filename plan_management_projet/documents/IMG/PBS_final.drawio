@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-04-03T11:03:03.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mnWwPfRq9l085EBsAQpq" version="21.1.4" type="device">
+  <diagram id="LGfyghavy2vzJPJB4fR_" name="Page-1">
+    <mxGraphModel dx="1313" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="380" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="300" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-29" value="Gestion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-30" value="Compte rendu de réunion de lancement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="289" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-31" value="Plan de projet V1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="379" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-32" value="Plan de projet V2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="469" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-33" value="Plan de projet final" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="561" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-34" value="Développement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-35" value="Interface cliente de visualisation de contrainte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="291" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-36" value="Service de documentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="381" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-37" value="Soutenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="652" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-38" value="Interface cliente de recherche de contrainte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="471" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23H8FOzGDXMRkR2mu5OT-39" value="Service de recherche de contrainte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="561" width="300" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
