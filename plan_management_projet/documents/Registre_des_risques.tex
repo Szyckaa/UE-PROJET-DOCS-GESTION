@@ -1,0 +1,130 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[]{graphicx}
+\usepackage[]{hyperref}
+
+\title{Registre des risques}
+\author{
+    Théo Delmas\\
+    Lauric Teysseyre\\
+    Pierre-Louis Renon\\
+    Julien Wattier\\
+    \\
+    Université Paul Sabatier\\
+    Master Informatique 1\\
+   } 
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\begin{section}{Objectif du document}
+ Ce document référence l'ensemble des risques et opportunités pouvant ou ayant affecté le projet.
+\end{section}
+
+{
+\setlength{\parindent}{0pt} %Retire les alinéas
+\begin{section}{Risques}
+ \begin{subsection}{Absence temporaire d'un fournisseur}
+     Absence d'un fournisseur dont la date de retour est inférieure à celle de la fin du projet.
+
+     Risque d’occurrence : Moyen.
+
+     Niveau d’impact : Moyen.
+
+     Les tâches du fournisseur absent pour le sprint courant sont gelées. Si l'absence dépasse le début du prochain sprint et que les tâches qu'il effectuait sont incorporées dans le prochain sprint, les fournisseurs restants essayent de récupérer le travail effectué par l'absent afin de reprendre son travail.
+ \end{subsection}
+
+ \begin{subsection}{Absence définitive d'un fournisseur}
+     Absence d'un fournisseur dont la date de retour est supérieure à celle de la fin du projet.
+
+     Risque d’occurrence : Faible.
+
+     Niveau d’impact : Fort.
+
+     Les tâches du fournisseur absent pour le sprint courant sont gelées. Les fournisseurs restants essayent de récupérer le travail effectué par l'absent afin de reprendre son travail.
+ \end{subsection}
+
+ \begin{subsection}{Absence temporaire du client}
+     Absence d'un client dont la date de retour est inférieure à celle de la fin du projet.
+
+     Risque d’occurrence : Moyen.
+
+     Niveau d’impact : Moyen.
+
+     Le rôle du client lors des revues de sprint est assuré par le product owner. L'équipe fournisseur continue d'effectuer des sprints sur les besoins déjà identifiés et raffinés. La revue de sprint suivant le retour du client est prolongée afin de présenter tout le travail effectué depuis son absence.D'autre part ce risque peut être atténué en définissant et raffinant plusieurs sprints à l'avance les besoins.
+ \end{subsection}
+
+ \newpage
+
+ \begin{subsection}{Absence définitive du client}
+     Absence d'un client dont la date de retour est supérieure à celle de la fin du projet.
+
+     Risque d’occurrence : Faible.
+
+     Niveau d’impact : Fort.
+
+     Le rôle du client lors des revues de sprint est assuré par le product owner. L'équipe fournisseur continue d'effectuer des sprints sur les besoins déjà identifiés et raffinés, permettant au projet d'être repris ultérieurement sur le travail effectué.
+
+     D'autre part ce risque peut être atténué en définissant et raffinant plusieurs sprints à l'avance les besoins.
+ \end{subsection}
+
+ \begin{subsection}{Perte du travail local}
+     Un fournisseur perd le travail qu'il a effectué localement.
+
+     Risque d’occurrence : Faible.
+
+     Niveau d’impact : Moyen.
+
+     Utiliser l'outil de configuration git pour pousser sur le dépôt distant le travail effectué chaque jour.
+ \end{subsection}
+
+ \begin{subsection}{Perte du travail global}
+     L'ensemble du travail effectué par les fournisseurs est perdu.
+
+     Risque d’occurrence : Faible.
+
+     Niveau d’impact : Fort.
+
+     Chaque fournisseur dispose d'une copie locale du projet qu'il tient à jour grâce à l'outil de configuration git en tirant la branche maîtresse au moins une fois par semaine.
+ \end{subsection}
+
+ \newpage
+
+ \begin{subsection}{Manque de maîtrise technologique}
+     Un fournisseur ne dispose pas suffisamment de maîtrise sur une des technologies qu'il doit utiliser pour le projet
+
+     Risque d’occurrence : Fort.
+
+     Niveau d’impact : Faible.
+
+     Le fournisseur se forme sur le tas à la technologie. Le client à pleinement conscience que le fait que les fournisseurs soient des étudiants implique ce risque.
+     \\[5mm]
+     Date de déclenchement : 04/02/2023.
+
+     Contexte de déclenchement : Julien souhaitait mettre en place un système générique d'initialisation d'instance en faisant hériter certaines classe d'une classe abstraite contenant dans son constructeur une méthode d'initialisation destinée à être surchargée. Cependant les surcharges appelaient des attributs des classes dérivées de la classe abstraite. Or Julien ne savait pas que Javascript initialise les attributs des classes dérivées après avoir lancé le constructeur de la classe parente.
+ \end{subsection}
+\end{section}
+
+\begin{section}{Opportunités}
+ \begin{subsection}{Existance d'un composant pour afficher du markdown}
+     Il existe un composant qui permet d'afficher un fichier en mardown et évite ainsi aux fournisseurs de le créer.
+
+     Risque d’occurrence : Fort.
+
+     Niveau d’impact : Moyen.
+
+     L'équipe fournisseur s'assure que le composant est utilisable dans le cadre de ce projet en se référant au client.
+     \\[5mm]
+     Date de déclenchement : 20/01/2023.
+
+     Contexte de déclenchement : Lors du sprint 0, l'équipe fournisseur a découvert l'existance d'un composant VueJS nommé VueShowndown permettant de générer le template réactif associé à un fichier markdown.
+ \end{subsection}
+\end{section}
+}
+
+\end{document}
