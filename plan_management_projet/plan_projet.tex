@@ -316,7 +316,7 @@
          \begin{subsubsection}{\label{sec:Référencement des besoins}Référencement des besoins}
              Les besoins sont suivis grâce à ce \href{https://wekan.flopedt.org/b/HsRkBw5rbmQt5PQet/catalogue}{kanban}. Celui-ci se décompose en deux parties. La première définit les principaux produits du projet et permet aux parties prenantes de comprendre sur quel produit l'équipe travaille actuellement. Les produits ayant été définis lors de la kick-off meeting.
 
-             La seconde est un kanban lié au produit en cours. L'ensemble des besoins y sont retranscrits et décrits grâce à des user stories sur lesquelles l'équipe fournisseur adjoint une liste de tâches à effectuer afin de satisfaire la user story.
+             La seconde est un kanban lié au produit en cours. L'ensemble des besoins y sont retranscrits et décrits grâce à des user stories sur lesquelles l'équipe fournisseur adjoint une liste d'actions à effectuer afin de satisfaire la user story.
 
              Le kanban se divise en 5 colonnes :
              \begin{itemize}
@@ -334,6 +334,24 @@
              Chaque développeur peut manipuler le kanban sans autorisation particulière.
          \end{subsubsection}
 
+
+         \begin{subsubsection}{\label{sec:Définition de ready}Définition de ready}
+            L'ensemble des critères suivants représentent la définition de ready des besoins traités ; c'est à dire que le besoin est passé en "A faire" (voir \hyperref[sec:Référencement des besoins]{référencement des besoins}) : 
+            \begin{itemize}
+                \item le besoin est décrit par une user story sous la forme "En tant <Catégorie d'utilisateur> je désire <fonctionnalité> afin de <intérêt de la fonctionnalité>.
+                \item Une première liste d'action nécessaire pour réaliser ce besoin a été adjointe au besoin.
+                \item Chaque développeur a approuvé la description textuelle et la liste d'action à effectuer.
+            \end{itemize}
+        \end{subsubsection}
+
+        \begin{subsubsection}{\label{sec:Définition de done}Définition de done}
+            L'ensemble des critères suivants représentent la définition de done des besoins traités ; c'est à dire que le besoin est passé en "OK" (voir \hyperref[sec:Référencement des besoins]{référencement des besoins}) : 
+            \begin{itemize}
+                \item le développement relatif au besoin est terminé.
+                \item les règles de qualité développement sont respectées(voir la \hyperref[sec:Gestion de la qualité]{gestion de la qualité})
+            \end{itemize}
+        \end{subsubsection}
+
          \begin{subsubsection}{\label{sec:Capture des besoins}Capture des besoins}
              Une première partie des besoins a été capturé lors de la kick-off meeting et sa préparation.
              Les besoins sont capturés lors des revues de sprint en fonction des remarques du client sur ce qui est présenté. Lors de la production du rapport de revue (voir la \hyperref[sec:Gestion de la communication]{gestion des communications}) dans les jours suivants la réunion, les besoins sont alors raffinés et placés en à faire.
@@ -341,10 +359,6 @@
              Si un nouveau besoin fait apparaître un nouveau produit, alors une décision sera émise pour faire changer le référentiel.
 
              Le client défini la nouvelle priorité des besoins à réaliser à chaque sprint.
-         \end{subsubsection}
-
-         \begin{subsubsection}{\label{sec:Validation des besoins}Validation des besoins}
-             Lors des revues de sprint le client valide si la fonctionnalité est suffisamment élaborée pour être considérée comme terminée.
          \end{subsubsection}
 
          \begin{subsubsection}{\label{sec:Gestion des changement dans les besoins}Gestion des changement dans les besoins}
