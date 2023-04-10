@@ -1,0 +1,138 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[]{graphicx}
+\usepackage[]{hyperref}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage[table]{xcolor}
+
+\title{Registre des faits marquants}
+\author{
+    Théo Delmas\\
+    Lauric Teysseyre\\
+    Pierre-Louis Renon\\
+    Julien Wattier\\
+    \\
+    Université Paul Sabatier\\
+    Master Informatique 1\\
+   } 
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\begin{section}{Objectif du document}
+ Ce document référence les événements s'étant produits durant chaque sprint.
+\end{section}
+
+{
+\setlength{\parindent}{0pt} %Retire les alinéas
+\begin{section}{Faits marquant}
+    \begin{subsection}{Sprint 0}
+        \begin{table}[H]
+            \caption{Évenements du sprint 0}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                Un composant VueJS nommé VueShowdown permettant de convertir automatiquement un fichier markdown en html associé et l'afficher a été découvert.& La mise en place de l'environnement de travail a d'abords été installé sous docker mais il s'est révélé que la configuration Docker ne fonctionnait pas. L'environnement de travail a été finalement installé sur des machines virtuels\\
+                \hline
+                Le prototypage d'IHM a été validé par le client dès le premier jet. & La configuration de l'environnement de travail sous WSL a posé quelques problèmes, notamment au niveau de la hot-reload de nodes.\\
+                \hline
+                & La structure du projet est assez peu documenté. Cela nous a pris de temps pour la comprendre.\\
+                \hline
+                & Le client a oublié la revue de sprint. Cette dernière a finalement été tenue avec du retard mais en accélérée et l'équipe n'a pas pensé à lancer l'enregistrement de la réunion.\\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 1}
+        \begin{table}[H]
+            \caption{Évenements du sprint 1}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                 & Les liens d'images dans les documentations étaient relatif au localhost et ne serait donc pas passer en environnement de production. Il a fallu ajouter un système altérant les documentations soumises.\\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 2}
+        \begin{table}[H]
+            \caption{Évenements du sprint 2}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                 & Le client nous a indiqué que l'ensemble de leurs systèmes utilisait la convention que si une collection était vide alors elle désignait en fait l'ensemble des instances de la classe. Cela nous oblige à revoir certaines logiques.\\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 3}
+        \begin{table}[H]
+            \caption{Évenements du sprint 3}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                L'équipe à découvert une extension VSCode nommée Liveshare qui permet de faire du peer-programming. Cela facilite le débbogage. & L'équipe connait une baisse de motivation qui la rend moins productive. \\
+                \hline
+                Une retrospective a été tenue en cours d'agilité et nous a permis de nous rendre compte que nos daily meeting était bien trop longue. & \\
+                \hline
+                L'équipe s'est rendu compte que la production du système de recherche ne serait pas tenable dans les délais et a donc demandé son annulation afin de se focaliser sur l'affichage des documentations. Le client a accepter la demande & \\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 4}
+        \begin{table}[H]
+            \caption{Évenements du sprint 4}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                 & L'organisation de la revue de sprint, qui doit être suivi d'une revue de code générale avec les mainteneurs du projet, pose des problèmes d'organisation à cause d'emplois du temps incompatibles. \\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 5}
+        \begin{table}[H]
+            \caption{Évenements du sprint 5}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                 & \\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+
+    \begin{subsection}{Sprint 6}
+        \begin{table}[H]
+            \caption{Évenements du sprint 6}
+            \begin{tabularx}{\columnwidth}{|X|X|}
+                \hline
+                \cellcolor[HTML]{17FF00}Positif & \cellcolor[HTML]{FF2D00}Négatif\\
+                \hline
+                 & \\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{subsection}
+\end{section}
+}
+
+\end{document}
