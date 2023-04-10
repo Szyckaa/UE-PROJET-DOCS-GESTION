@@ -6,6 +6,9 @@
 \usepackage[]{graphicx}
 \usepackage[]{hyperref}
 \usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage[table]{xcolor}
 
 \title{Plan de management projet}
 \author{
@@ -209,11 +212,45 @@
                  \item[C] : Contribue à la réalisation de la tâche.
                  \item[I] : Est informé des avancements et décisions relatives à la tâche.
              \end{itemize}
+
              \begin{landscape}
-                 \includegraphics[scale=0.6]{documents/IMG/RACI}
+                \begin{table}[H]
+                    \caption{Matrice RACI}
+                    \fontsize{8pt}{9pt}\selectfont
+                    \begin{tabularx}{\columnwidth}{|X|X|X|X|X|X|X|X|X|X|}
+                        \hline
+                        & Professeur & Responsable de gestion & Membre de l'équipe de gestion & Client & Scrum Master & Product owner & Développeur front-end & Développeur back-end & AMO\\
+                        \hline
+                        Réaliser la réunion de lancement & A & R & C & C &  &  &  &  & \\
+                        \hline
+                        Rédiger le plan V1& A & R & C &  &  &  &  &  & \\
+                        \hline
+                        Corriger le plan V1& A & R & C &  &  &  &  &  & \\
+                        \hline
+                        Corriger le plan V2& A & R & C  &  &  &  &  &  & \\
+                        \hline
+                        Rédiger la version finale du plan& A & R & C  &  &  &  &  &  & \\
+                        \hline
+                        Réaliser la soutenance& A & R & C  &  &  &  &  &  & \\
+                        \hline
+                        Réaliser le sprint 0&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 1&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 2&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 3&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 4&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 5&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                        Réaliser le sprint 6&  &  &  & A & R & R & C & C & I\\
+                        \hline
+                    \end{tabularx}
+                \end{table}
              \end{landscape}
          \end{subsubsection}
-
      \end{subsection}
 
      \begin{subsection}{\label{sec:Suivi de déroulement}Suivi de déroulement}
