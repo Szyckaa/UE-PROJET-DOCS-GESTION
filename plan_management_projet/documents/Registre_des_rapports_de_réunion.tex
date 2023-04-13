@@ -86,7 +86,7 @@
      \end{subsubsection}
 
      \begin{subsubsection}{Extension de la détection de documentation invalide}
-         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderaient des images non hosté ou des interpolations impossibles.
+         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderaient des images non hostées ou des interpolations impossibles.
 
          Le client n’étant pas familier avec la CI il nous a indiqué de ne pas aller trop loin dans le mécanisme détection des documentations invalides.
 
@@ -98,7 +98,7 @@
      \begin{subsubsection}{Migration du frontend}
          Une rapide discussion a eu lieu sur le portage du front de l’application vers VueJS. En l’état le serveur Django le gère au travers de template. Léo Cusseau est en charge de trouver un moyen d’initier le portage en faisant cohabiter les templates Django avec une application VueJS.
 
-         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elle fonctionne dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapter.
+         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elles fonctionnent dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapter.
 
          → Prévoir une réunion avec Léo Cusseau pour comprendre comment il prévoit la cohabitation puis le portage complet afin d’adapter au mieux ce que nous développons à ce contexte.
      \end{subsubsection}
@@ -138,7 +138,7 @@
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Internationalisation}
-         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part il nous a demandés de bien utiliser l’anglais de manière générale pour les commentaires, nom de méthode et paramètre et cetera…
+         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part il nous a demandé de bien utiliser l’anglais de manière générale pour les commentaires, nom de méthode et paramètre et cetera…
 
          → S’assurer que ce principe est bien appliqué.
      \end{subsubsection}
@@ -170,7 +170,7 @@
 \begin{section}{Revue de sprint du 29/03/2023}
  \begin{subsection}{Présentation du travail effectué}
      \begin{subsubsection}{Affichage des tableaux}
-         Le client nous a demandé de voir si les tableaux afficher peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
+         Le client nous a demandé de voir si les tableaux affichés peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
 
          → Voir si VueShowdown peut afficher les lignes d’un tableau.
      \end{subsubsection}
@@ -214,7 +214,7 @@
 \begin{section}{Revue de sprint du 10/04/2023}
     \begin{subsection}{Présentation du travail effectué}
         \begin{subsubsection}{Afficheur de paramètre}
-            Le client a fait remarquer que pour la création et la modification de contrainte, le système n'étant pas capable d'interpoler les paramètre il devrait en afficher le nom plutôt que des blancs.
+            Le client a fait remarquer que pour la création et la modification de contrainte, le système n'étant pas capable d'interpoler les paramètres il devrait en afficher le nom plutôt que des blancs.
             -> Ajouter un affichage par défaut lorsque le paramètre n'est pas interpolable.
         \end{subsubsection}
     \end{subsection}
