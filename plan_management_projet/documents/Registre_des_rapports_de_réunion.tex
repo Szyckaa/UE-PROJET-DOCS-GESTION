@@ -9,8 +9,8 @@
 \title{Registre des rapports de réunion}
 \author{
     Théo DELMAS\\
-    Lauric TEYSSEYRE\\
     Pierre-Louis RENON\\
+    Lauric TEYSSEYRE\\
     Julien WATTIER\\
     \\
     Université Paul Sabatier\\
@@ -36,7 +36,7 @@
 
          → Organisation d’une réunion sur ce point nécessaire.
 
-         → Étude d’alternative, existence d’un tel système sous Django ?.
+         → Étude d’alternative, existence d’un tel système sous Django ?
      \end{subsubsection}
 
      \begin{subsubsection}{Réécriture de domaine dans les documentations}
@@ -86,9 +86,9 @@
      \end{subsubsection}
 
      \begin{subsubsection}{Extension de la détection de documentation invalide}
-         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderaient des images non hosté ou des interpolations impossibles.
+         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderaient des images non hostées ou des interpolations impossibles.
 
-         Le client n’étant pas familier avec la CI il nous a indiqué de ne pas aller trop loin dans le mécanisme détection des documentations invalides.
+         Le client n’étant pas familier avec la l'intégration continue il nous a indiqué de ne pas aller trop loin dans le mécanisme détection des documentations invalides.
 
          → Laisser tomber cette extension si elle devient trop complexe.
      \end{subsubsection}
@@ -96,11 +96,11 @@
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Migration du frontend}
-         Une rapide discussion a eu lieu sur le portage du front de l’application vers VueJS. En l’état le serveur Django le gère au travers de template. Léo Cusseau est en charge de trouver un moyen d’initier le portage en faisant cohabiter les templates Django avec une application VueJS.
+         Une rapide discussion a eu lieu sur le portage du front de l’application vers VueJS. En l’état le serveur Django le gère au travers de template. Léo CUSSEAU est en charge de trouver un moyen d’initier le portage en faisant cohabiter les templates Django avec une application VueJS.
 
-         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elle fonctionne dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapter.
+         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elles fonctionnent dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapter.
 
-         → Prévoir une réunion avec Léo Cusseau pour comprendre comment il prévoit la cohabitation puis le portage complet afin d’adapter au mieux ce que nous développons à ce contexte.
+         → Prévoir une réunion avec Léo CUSSEAU pour comprendre comment il prévoit la cohabitation puis le portage complet afin d’adapter au mieux ce que nous développons à ce contexte.
      \end{subsubsection}
  \end{subsection}
 \end{section}
@@ -110,7 +110,7 @@
      \begin{subsubsection}{Synchronisation des interpolations}
          Le client a demandé pourquoi ces stores utilisaient un délai pour se charger.
 
-         Nous avons précisé que ce délai venait du fait qu’on copiait un objet chargé de manière asynchrone et nous ne pouvions pas nous synchroniser sur ce chargement. De fait nous avons mis en place un délai arbitraire pour lancer la copie. D’autre part nous avons préciser qu'à terme, nous ne copierons plus un objet mais nous utiliserons directement l’API Rest existante sur laquelle nous pourrons nous synchroniser parfaitement.
+         Nous avons précisé que ce délai venait du fait que nous copions un objet chargé de manière asynchrone et nous ne pouvions pas nous synchroniser sur ce chargement. De fait nous avons mis en place un délai arbitraire pour lancer la copie. D’autre part nous avons précisé qu'à terme, nous ne copierons plus un objet mais nous utiliserons directement l’API Rest existante sur laquelle nous pourrons nous synchroniser parfaitement.
 
          → Passer en chargement par requête à l’API.
      \end{subsubsection}
@@ -130,7 +130,7 @@
 
          Nous avons également proposé d’implémenter ce système côté serveur. Le client était inquiet que le système ne soit pas assez réactif à cause des temps de communication ou que trop de requête soit émise si à chaque fois que l’utilisateur tape un caractère une nouvelle requête soit émise.
 
-         → Prévoir un système temporise les requêtes tant que l’utilisateur tape quelque chose.
+         → Prévoir un système qui temporise les requêtes tant que l’utilisateur tape quelque chose.
 
          → Faire des mesures de performance.
      \end{subsubsection}
@@ -138,17 +138,17 @@
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Internationalisation}
-         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part il nous a demandés de bien utiliser l’anglais de manière générale pour les commentaires, nom de méthode et paramètre et cetera…
+         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part le client nous a demandé de bien utiliser l’anglais de manière générale pour les commentaires, nom de méthode et paramètre et cetera…
 
          → S’assurer que ce principe est bien appliqué.
      \end{subsubsection}
 
      \begin{subsubsection}{Nouvelles documentations}
-         Le client nous a demandé de tirer un ensemble de documentation qu’il venait de produire. Au moment de charger la documentation nous avons remarqué que le système ne prenait pas en charge l’affichage des tableaux. Cela venant du fait que le composant tiers pour afficher les documentations nécessite une option pour afficher les tableaux.
+         Le client nous a demandé de récupérer un ensemble de documentation qu’il venait de produire. Au moment de charger la documentation nous avons remarqué que le système ne prenait pas en charge l’affichage des tableaux. Cela venant du fait que le composant tiers pour afficher les documentations nécessite une option pour afficher les tableaux.
 
          → Régler VueShowdow pour afficher les tableaux.
          \\[5mm]
-         Nous avons également remarqué les paramètres primitifs n’étaient pas gérés par l’afficheur.
+         Nous avons également remarqué que les paramètres primitifs n’étaient pas gérés par l’afficheur.
 
          → Gérer les paramètres primitifs dans le système.
      \end{subsubsection}
@@ -170,7 +170,7 @@
 \begin{section}{Revue de sprint du 29/03/2023}
  \begin{subsection}{Présentation du travail effectué}
      \begin{subsubsection}{Affichage des tableaux}
-         Le client nous a demandé de voir si les tableaux afficher peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
+         Le client nous a demandé de voir si les tableaux affichés peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
 
          → Voir si VueShowdown peut afficher les lignes d’un tableau.
      \end{subsubsection}
@@ -188,7 +188,7 @@
      \begin{subsubsection}{Affiner le CSS}
          Le client nous a demandé d’affiner le CSS afin d’obtenir une interface ergonomique
 
-         → Revoir la taille de la popover sur les documentations existantes.
+         → Revoir la taille de la fenêtre flottante affichant une contrainte existante.
 
          → Revoir le CSS sur la création de documentation afin d’enlever le blanc inutile.
 
@@ -214,15 +214,17 @@
 \begin{section}{Revue de sprint du 10/04/2023}
     \begin{subsection}{Présentation du travail effectué}
         \begin{subsubsection}{Afficheur de paramètre}
-            Le client a fait remarquer que pour la création et la modification de contrainte, le système n'étant pas capable d'interpoler les paramètre il devrait en afficher le nom plutôt que des blancs.
-            -> Ajouter un affichage par défaut lorsque le paramètre n'est pas interpolable.
+            Le client a fait remarquer que pour la création et la modification de contrainte, le système n'étant pas capable d'interpoler les paramètres il devrait en afficher le nom plutôt que des blancs.
+
+            → Ajouter un affichage par défaut lorsque le paramètre n'est pas interpolable.
         \end{subsubsection}
     \end{subsection}
    
     \begin{subsection}{Présentation du travail prévu}
         \begin{subsubsection}{Création d'un tutoriel de création de documentation}
             Le client nous a rappelé d'écrire un tutoriel a ajouter au wiki du projet qui explique comment écrire une contrainte pour le système développé.
-            -> Réaliser le besoin dédié sur le wekan.
+
+            → Réaliser le besoin dédié sur le kanban.
         \end{subsubsection}
     \end{subsection}
    \end{section}
