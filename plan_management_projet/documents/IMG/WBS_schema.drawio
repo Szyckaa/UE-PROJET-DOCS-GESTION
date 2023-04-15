@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T18:46:03.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6xgs-3IFGQUWcyEIvbhI" version="21.0.6" type="device"><diagram name="Page-1" id="azd4oB9Zv8i_3dDel0zO">1Zpbc6MgGIZ/jZedEVETL1O3e5idnXaanXZm72ikkV0UF7FJ9tcvRHLwkEbbWJIboy8g8D4I+BkLhsnyC0dZ/INFmFqOHS0t+MlyHBDYgfxRyqpUxgEshTknkc60E6bkH9airdWCRDivZBSMUUGyqjhjaYpnoqIhztmimu2Z0WqtGZrjhjCdIdpUH0kkYt0LZ7TTv2Iyjzc1A193OEGbzLoneYwittiT4I0FQ86YKM+SZYipMm/jS1nu84HUbcM4TkWXAn9/CT+I0+hnHua3f77j+8crcQV8p7zPC6KF7rJurlhtPOCsSCOsbgMseL2IicDTDM1U6kJSl1osEqqT9e0wF3h5sKVg2385cDBLsOArmUUXCLRjesj4+nKx83800lq85/14IyLNfL69884WeaKd6eUSOD+XXLdqE2jxCY5bfBq5w/lkn59PwOngk93ikzeYT27DpTvOooJwLFWqDhlFqZo11+ec/cbCcnwqG3b9xOXZXKy9qSvfVBkLTtRRNrCRfluIbYa7lhrsZ5IiernExkMBC4IGsXsrhNYkQJTkmCtsSB54KRYpYVtzpc8znKiun5hgyJJMqBqkr1Gxqe5IE0yjHVfROm7QQLtdMT8ELbCbc7tmG5F5ifbQE2k/gJ5Q38Ss92P8AM4ONITmQTen3TpoVHY7LzmsZ0Nl7JpUOQB60W6H41zuxFyD6gHzUL3jM/MaYSm+YMqybJDpeMJFWcczmu0h04NHg7zUPeOAAP1uAPOMEwVNrfvDgovq1RmG5tm1NdMDhrdDAHTYD1Vc7LtOHmXydqDm18Y6UOgaB+r0fQpbFrF3AG0ZHt2Bmn/FrAN1oXGgsOO6OBDQI3uc1wvDswPqOeaB9n1C3ZMChe8B6p4dUB+YBzrqCdQ7KdCW4dEdqHd2QEe2eaDjnkD9kwJtGR6X9nrSgBqYh9pxp/vxQdrwQqDWvuZ4Hb/mBO5QSL0OE68KBOWsEDhVYbhThH00mtdoT/cqNAytHunxQRPbB0d6fNjAFjLOTx+jPRhS7R+HNf9qUgfpOsOF7OTl7nP2Om3vTwHw5j8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:23:02.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="gDMzzSF5I_MOqQSEupVW" version="21.1.7" type="device">
+  <diagram name="Page-1" id="azd4oB9Zv8i_3dDel0zO">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qZt69hndTsCsOkKeRW-t-162" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="60" width="770" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-161" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="380" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-160" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="300" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-4" value="Produire le plan de projet&lt;br&gt;&lt;br&gt;In : /&lt;br&gt;Out : Plan de projet final" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-99" value="Réaliser la réunion de lancement&lt;br&gt;&lt;br&gt;In : /&lt;br&gt;Out : Compte rendu de réunion de lancement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="249" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-101" value="Rédiger le plan de projet V1&lt;br&gt;&lt;br&gt;In : Compte rendu de réunion de lancement&lt;br&gt;Out : Plan de projet V1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="339" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-104" value="Rédiger la version finale du plan&lt;br&gt;&lt;br&gt;In : Plan de projet V2&lt;br&gt;Out : Plan de projet final" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="519" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-105" value="Réaliser le développement&lt;br&gt;&lt;br&gt;In : /&lt;br&gt;Out : Artéfact final du projet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-106" value="Réaliser le sprint 0&lt;br&gt;&lt;br&gt;In : /&lt;br&gt;Out : Artéfact de sprint 0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="251" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-119" value="Réaliser le sprint 1&lt;br&gt;&lt;br&gt;In : Artéfact de sprint 0&lt;br&gt;Out : Artéfact de sprint 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="341" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-126" value="Réaliser le sprint 2&lt;br&gt;&lt;br&gt;In : Artéfact de sprint 1&lt;br&gt;Out : Artéfact de sprint 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="431" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-135" value="Réaliser le sprint 2&lt;br&gt;&lt;br&gt;In : Artéfact de sprint 2&lt;br&gt;Out : Artéfact de sprint 3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="521" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-136" value="Réaliser le sprint 4&lt;br&gt;&lt;br&gt;In : Artéfact de sprint 3&lt;br&gt;Out : Artéfact de sprint 4" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="611" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-137" value="Réaliser le sprint 5&lt;br&gt;&lt;br&gt;In : Artéfact de sprint 4&lt;br&gt;Out : Artéfact de sprint 5" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="701" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-139" value="Réaliser le projet&lt;br&gt;&lt;br&gt;In : /&lt;br&gt;Out : Plan de projet final, Artéfact final du projet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="50" width="770" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-157" value="Réaliser la soutenance&lt;br&gt;&lt;br&gt;In : Plan de projet final&lt;br&gt;Out : Soutenance" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZt69hndTsCsOkKeRW-t-163" value="Corriger le plan de projet V1&lt;br&gt;&lt;br&gt;In : Plan de projet V1&lt;br&gt;Out : Plan de projet V2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="429" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

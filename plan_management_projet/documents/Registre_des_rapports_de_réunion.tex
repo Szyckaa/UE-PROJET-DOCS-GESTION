@@ -4,13 +4,14 @@
 \usepackage[french]{babel}
 \usepackage[]{graphicx}
 \usepackage[]{hyperref}
+\usepackage[T1]{fontenc}
 
 \title{Registre des rapports de réunion}
 \author{
-    Théo Delmas\\
-    Lauric Teysseyre\\
-    Pierre-Louis Renon\\
-    Julien Wattier\\
+    Théo DELMAS\\
+    Pierre-Louis RENON\\
+    Lauric TEYSSEYRE\\
+    Julien WATTIER\\
     \\
     Université Paul Sabatier\\
     Master Informatique 1\\
@@ -31,19 +32,19 @@
 \begin{section}{Revue de sprint du 21/02/2023}
  \begin{subsection}{Présentation du travail effectué}
      \begin{subsubsection}{Fallback de l’API Rest de documentation}
-         Le système qui parse l’url n’est pas satisfaisant selon le client.
+         Le système qui parse l'URL n’est pas satisfaisant selon le client.
 
          → Organisation d’une réunion sur ce point nécessaire.
 
-         → Etude d’alternative, existance d’un tel système sous Django ?.
+         → Étude d’alternative, existence d’un tel système sous Django ?
      \end{subsubsection}
 
-     \begin{subsubsection}{Réécriture de domaine dans les documentation}
+     \begin{subsubsection}{Réécriture de domaine dans les documentations}
          La syntaxe pour appeler un remplacement de nom de domaine n’est pas satisfaisante. Les collaborateurs doivent pouvoir déposer leur documentation dans le serveur et lors de la visualisation sans passer par le frontend, ils doivent pouvoir charger correctement les images. Cela implique qu’ils écrivent les liens en relatif.
 
          → Le système doit réécrire lorsque des chemins relatifs sont identifiés.
          \\[5mm]
-         Le client valide le reste du système mais estime qu’il n’est pas suffisamment satisfaisant sans identifié dans l’immédiat d’alternative.
+         Le client valide le reste du système mais estime qu’il n’est pas suffisamment satisfaisant sans identifier dans l’immédiat d’alternative.
 
          → Organisation d’une réunion sur ce point nécessaire.
 
@@ -53,11 +54,11 @@
      \begin{subsubsection}{Affichage de la documentation dans la popover}
          Le client demande de centrer l’écran sur le popover lors de son ouverture.
 
-         → Mettre en place ce système
+         → Mettre en place ce système.
          \\[5mm]
-         Il propose d’inciter les collaborateur à écrire les documentations en format paysage.
+         Il propose d’inciter les collaborateurs à écrire les documentations en format paysage.
 
-         → Définir des conseils d’écriture des documentation
+         → Définir des conseils d’écriture des documentations.
          \\[5mm]
          Le client va écrire des documentations typique.
      \end{subsubsection}
@@ -79,27 +80,27 @@
 
          → Système validé
          \\[5mm]
-         Le client nous a demandé également d’utiliser un système de recherche de correspondance qui aurait pioché dans les documentations où dans des champs de description de contrainte qui seront éventuellement ajoutés.
+         Le client nous a demandé également d’utiliser un système de recherche de correspondance qui aurait pioché dans les documentations ou dans des champs de description de contrainte qui seront éventuellement ajoutés.
 
-         → Voir si un tel système de recherche open-source existe.
+         → Voir si un tel système de recherche open source existe.
      \end{subsubsection}
 
      \begin{subsubsection}{Extension de la détection de documentation invalide}
-         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderait des images non hosté ou des interpolations impossible.
+         Nous avons proposé d’étendre ce système en détectant au démarrage des documentations qui demanderaient des images non hostées ou des interpolations impossibles.
 
-         Le client n’étant pas familier avec la CI il nous a indiqué de ne pas aller trop loin dans le mécanisme détection des documentations invalides.
+         Le client n’étant pas familier avec la l'intégration continue il nous a indiqué de ne pas aller trop loin dans le mécanisme détection des documentations invalides.
 
-         → Laisser tombé cette extension si elle devient trop complexe.
+         → Laisser tomber cette extension si elle devient trop complexe.
      \end{subsubsection}
  \end{subsection}
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Migration du frontend}
-         Une rapide discussion a eu lieu sur le portage du front de l’application vers VueJS. En l’état le serveur Django le gère au travers de template. Léo Cusseau est en charge de trouvé un moyen d’initier le portage en faisant cohabiter les template Django avec une application VueJS.
+         Une rapide discussion a eu lieu sur le portage du front de l’application vers VueJS. En l’état le serveur Django le gère au travers de template. Léo CUSSEAU est en charge de trouver un moyen d’initier le portage en faisant cohabiter les templates Django avec une application VueJS.
 
-         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elle fonctionne dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapté.
+         Nous avons précisé que nous essayons de développer les fonctionnalités afin qu’elles fonctionnent dans le cadre de cette cohabitation et que lors du portage complet vers VueJS il soit aisé de les réadapter.
 
-         → Prévoir une réunion avec Léo Cusseau pour comprendre comment il prévoit la cohabitation puis le portage complet afin d’adapter au mieux ce que nous développons à ce contexte.
+         → Prévoir une réunion avec Léo CUSSEAU pour comprendre comment il prévoit la cohabitation puis le portage complet afin d’adapter au mieux ce que nous développons à ce contexte.
      \end{subsubsection}
  \end{subsection}
 \end{section}
@@ -109,7 +110,7 @@
      \begin{subsubsection}{Synchronisation des interpolations}
          Le client a demandé pourquoi ces stores utilisaient un délai pour se charger.
 
-         Nous avons précisé que ce délai venait du fait qu’on copiait un objet chargé de manière asynchrone et nous ne pouvions pas se synchroniser sur ce chargement. De fait nous avons mis en place un délai arbitraire pour lancer la copie. D’autre part nous avons préciser que à terme, nous ne copierons plus un objet mais nous utiliserons directement l’API Rest existante sur laquelle nous pourrons nous synchroniser parfaitement.
+         Nous avons précisé que ce délai venait du fait que nous copions un objet chargé de manière asynchrone et nous ne pouvions pas nous synchroniser sur ce chargement. De fait nous avons mis en place un délai arbitraire pour lancer la copie. D’autre part nous avons précisé qu'à terme, nous ne copierons plus un objet mais nous utiliserons directement l’API Rest existante sur laquelle nous pourrons nous synchroniser parfaitement.
 
          → Passer en chargement par requête à l’API.
      \end{subsubsection}
@@ -117,37 +118,37 @@
      \begin{subsubsection}{Révision de l’afficheur de paramètre}
          Le client nous a fait remarquer que l’usage de balise <p> pour chaque instance n’était pas idéal car créant un saut de ligne à l’affichage.
 
-         → Utiliser une autre balise qui ne créer pas de saut de ligne.
+         → Utiliser une autre balise qui ne crée pas de saut de ligne.
      \end{subsubsection}
  \end{subsection}
 
  \begin{subsection}{Présentation du travail prévu}
      \begin{subsubsection}{Système de recherche}
-         Pour le système de recherche de correspondance le client à affiner son besoin en précisant que le système de recherche devrait chercher les tags ou les mots clefs dans une partie de la documentation et pas dans les classes de contraintes.
+         Pour le système de recherche de correspondance le client a affiné son besoin en précisant que le système de recherche devrait chercher les tags ou les mots-clefs dans une partie de la documentation et pas dans les classes de contraintes.
 
          → Prévoir le système pour qu’il recherche dans la documentation et donc être indépendant des objets contraintes du serveur.
 
-         Nous avons également proposé d’implémenter ce système côté serveur. Le client était inquiet que le système ne soit pas assez réactif à cause des temps de communication ou que trop de requête soient émise si à chaque fois que l’utilisateur tape un caractère une nouvelle requête soit émise.
+         Nous avons également proposé d’implémenter ce système côté serveur. Le client était inquiet que le système ne soit pas assez réactif à cause des temps de communication ou que trop de requête soit émise si à chaque fois que l’utilisateur tape un caractère une nouvelle requête soit émise.
 
-         → Prévoir un système temporise les requête tant que l’utilisateur tape quelque chose.
+         → Prévoir un système qui temporise les requêtes tant que l’utilisateur tape quelque chose.
 
-         → Faire des mesures de perfomance
+         → Faire des mesures de performance.
      \end{subsubsection}
  \end{subsection}
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Internationalisation}
-         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part il nous a demandé de bien utiliser l’anglais de manière général pour les commentaires, nom de méthode et paramètre et cetera…
+         Le client nous a précisé que l’équipe commençait à voir pour un outil d’internationalisation des interfaces mais qu’en l’état nous ne devions pas l’utiliser mais plutôt avoir des interfaces en anglais. D’autre part le client nous a demandé de bien utiliser l’anglais de manière générale pour les commentaires, nom de méthode et paramètre et cetera…
 
          → S’assurer que ce principe est bien appliqué.
      \end{subsubsection}
 
      \begin{subsubsection}{Nouvelles documentations}
-         Le client nous a demandé de tirer un ensemble de documentation qu’il venait de produire. Au moment de charger la documentation nous avons remarqué que le système ne prenait pas en charge l’affichage des tableaux. Cela venant du fait que le composant tiers pour afficher les documentations nécessite un option pour afficher les tableaux.
+         Le client nous a demandé de récupérer un ensemble de documentation qu’il venait de produire. Au moment de charger la documentation nous avons remarqué que le système ne prenait pas en charge l’affichage des tableaux. Cela venant du fait que le composant tiers pour afficher les documentations nécessite une option pour afficher les tableaux.
 
          → Régler VueShowdow pour afficher les tableaux.
          \\[5mm]
-         Nous avons également remarqué les paramètres primitifs n’étaient pas gérer par l’afficheur.
+         Nous avons également remarqué que les paramètres primitifs n’étaient pas gérés par l’afficheur.
 
          → Gérer les paramètres primitifs dans le système.
      \end{subsubsection}
@@ -159,7 +160,7 @@
      \end{subsubsection}
 
      \begin{subsubsection}{Tests}
-         Le client a discuter de fait de tester les développements. Il nous a demandé de tester un maximum de chose. Cependant nous n’avons pas de véritable méthode pour tester notre production.
+         Le client a discuté du fait de tester les développements. Il nous a demandé de tester un maximum de choses. Cependant nous n’avons pas de véritable méthode pour tester notre production.
 
          → Définir comment tester les composants.
      \end{subsubsection}
@@ -169,9 +170,9 @@
 \begin{section}{Revue de sprint du 29/03/2023}
  \begin{subsection}{Présentation du travail effectué}
      \begin{subsubsection}{Affichage des tableaux}
-         Le client nous a demandé de voir si les tableaux afficher peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
+         Le client nous a demandé de voir si les tableaux affichés peuvent bien séparer les cases en affichant les lignes du tableau car sinon la documentation n’est pas claire.
 
-         → Voir si VueShowdown peut afficher les lignes d’un tableau
+         → Voir si VueShowdown peut afficher les lignes d’un tableau.
      \end{subsubsection}
 
      \begin{subsubsection}{Retour à la ligne pour l’affichage par défaut tous}
@@ -187,9 +188,9 @@
      \begin{subsubsection}{Affiner le CSS}
          Le client nous a demandé d’affiner le CSS afin d’obtenir une interface ergonomique
 
-         → Revoir la taille de la popover sur les documentations existantes.
+         → Revoir la taille de la fenêtre flottante affichant une contrainte existante.
 
-         → Revoir le CSS sur la création de documentation afin d’enlever le blanc inutil.
+         → Revoir le CSS sur la création de documentation afin d’enlever le blanc inutile.
 
          → Vérifier que la taille de la popover sur la création de documentation est convenable.
      \end{subsubsection}
@@ -197,17 +198,35 @@
 
  \begin{subsection}{Discussion}
      \begin{subsubsection}{Abandon de la partie recherche}
-         Nous avons convenu avec le client que faute de temps nous ne pourrions commencer le système de recherche. Nous avons décider de nous focaliser sur l’affichage de documentation.
+         Nous avons convenu avec le client que faute de temps nous ne pourrions commencer le système de recherche. Nous avons décidé de nous focaliser sur l’affichage de documentation.
 
-         → Annuler les tâches relative au système de recherche.
+         → Annuler les tâches relatives au système de recherche.
      \end{subsubsection}
 
      \begin{subsubsection}{Demande de revue de code}
-         Le client nous a demander de prévoir une revue de code avec des mainteneur du projet afin de présenter en détail les différentes parties du code produit, ainsi que le fonctionnement afin de faciliter la reprise de notre travail.
+         Le client nous a demandé de prévoir une revue de code avec des mainteneurs du projet afin de présenter en détail les différentes parties du code produit, ainsi que le fonctionnement afin de faciliter la reprise de notre travail.
 
          → Prévoir une revue de code.
      \end{subsubsection}
  \end{subsection}
 \end{section}
+
+\begin{section}{Revue de sprint du 10/04/2023}
+    \begin{subsection}{Présentation du travail effectué}
+        \begin{subsubsection}{Afficheur de paramètre}
+            Le client a fait remarquer que pour la création et la modification de contrainte, le système n'étant pas capable d'interpoler les paramètres il devrait en afficher le nom plutôt que des blancs.
+
+            → Ajouter un affichage par défaut lorsque le paramètre n'est pas interpolable.
+        \end{subsubsection}
+    \end{subsection}
+   
+    \begin{subsection}{Présentation du travail prévu}
+        \begin{subsubsection}{Création d'un tutoriel de création de documentation}
+            Le client nous a rappelé d'écrire un tutoriel a ajouter au wiki du projet qui explique comment écrire une contrainte pour le système développé.
+
+            → Réaliser le besoin dédié sur le kanban.
+        \end{subsubsection}
+    \end{subsection}
+   \end{section}
 }
 \end{document}
